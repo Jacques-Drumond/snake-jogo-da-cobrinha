@@ -1,3 +1,9 @@
+
+body{
+    background-color: #409cbd;
+    align-items: center;
+}
+
 #gc {
     position: absolute;
     top:0;
@@ -12,3 +18,30 @@ h1{
     font-family: 'Anton';
     font-weight: 1;
 }
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button{
+    text-decoration: none;
+    padding: 11px 10px;
+    font-size: 1.25rem;
+    position: relative;
+    margin: 32px;
+    font-family: 'Anton';
+}
+
+
+#btn{
+    background: #000;
+    color: aliceblue;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+
